@@ -1,0 +1,30 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+       
+        string studentID = "20227609";
+        string fullName = "John Dave Tindoc";
+        string nickname = "JD";
+        string gender = "Male";
+        string yearLevel = "2nd Year";
+        string homeLocation = "Cebu City";
+        string course = "Bachelor of Science in Information Technology";
+        string mobileNumber = "09089765901";
+        string personalEmail = "johndavetindoc@gmail.com";
+
+      
+        Console.WriteLine("Student Demographic Information by [John Dave Tindoc]");
+        Console.WriteLine("Student ID: " + studentID);
+        Console.WriteLine("Full Name: " + fullName);
+        Console.WriteLine("Nickname: " + nickname);
+        Console.WriteLine("Gender: " + gender);
+        Console.WriteLine("Year Level: " + yearLevel);
+        Console.WriteLine("Home Location: " + homeLocation);
+        Console.WriteLine("Course: " + course);
+        Console.WriteLine("Mobile Number: " + mobileNumber);
+        Console.WriteLine("Personal Email: " + personalEmail);
+    }
+}
